@@ -1,0 +1,80 @@
+.section {
+    font-family: 'Inter';
+}
+
+.container {
+
+}
+
+.headerBlock {
+    margin-left: 119px;
+    margin-top: 182px;
+    margin-right: 361px;
+    width: 960px;
+    height: 96px;
+}
+
+.headerBlockText {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    color: #606C84;
+}
+
+.title {
+    text-align: center;
+    margin-top: 128px;
+}
+
+.titleName {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    letter-spacing: 0.6em;
+    text-transform: uppercase;
+    color: #1C57C9;
+}
+
+.blocks {
+    display: flex;
+}
+
+.blockLeft {
+    min-width: 680px;
+}
+
+.blockRight {
+
+}
+
+.blockTitle {
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    letter-spacing: -0.02em;    
+    color: #262B35;
+}
+
+.blockText {
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #606C84;
+}
+
+.grid1 {
+    display: flex;
+}
+
+.grid2 {
+    display: flex;
+}
+
