@@ -6,7 +6,7 @@ const FirstFloor = () => {
             <div className={styles.container}>
                 <div className={styles.block1}>
                     <div className={styles.title}>
-                        <h1 className={styles.titleText}>Imagine your home smart enough <span className={styles.titleTextColor}>to take care</span> of itself.</h1>
+                        <h1 className={styles.titleText}>Imagine your <tr></tr>home smart enough <tr></tr><span className={styles.titleTextColor}>to take care</span> of itself.</h1>
                     </div>
                     <div className={styles.text}>
                         <p className={styles.textText}>Turn your home into a smarthome today with a simple & affordable upgrade. Discover the upgrade that automates home maintenance.</p>
