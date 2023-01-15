@@ -1,3 +1,61 @@
 .header {
-    color: red;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    list-style-type: none;
+}
+
+.container {
+    background-color: rgb(112, 125, 124);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+}
+
+.logo {
+    margin-left: 119px;
+    display: flex;
+}
+
+.pictures {
+    margin-left: 10px;
+    width: 42px;
+    height: 42px;
+    padding-top: 5px;
+}
+
+.text {
+    font-size: 22px;
+    line-height: 27px;
+    padding-top: 10px;
+    margin-left: 12px;
+}
+
+.pages {
+}
+
+.button {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 18px;
+    margin-right: 42px;
+    color: #FFFFFF;
+}
+
+:nth-last-child(1) {
+    margin: 0;
+}
+
+.nav {
+    margin-right: 119px;
+    display: flex;
+    font-size: 13px;
+    line-height: 16px;  
+}
+
+.navbutton {
+    color: #262B35;
+    text-decoration: none;
+    margin-right: 10px;
 }

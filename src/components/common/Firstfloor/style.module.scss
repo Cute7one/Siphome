@@ -1,0 +1,89 @@
+.firstFloor {
+    font-family: 'Inter', sans-serif;
+    border-top: 2px solid white;
+}
+
+.container {
+    background-color: rgb(112, 125, 124);
+    display: flex;
+}
+
+.block1 {
+    margin-left: 119px;
+    width: 1100px;
+}
+
+.title {
+    padding-right: 381px;
+    padding-top: 90px;
+}
+
+.titleText {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.titleTextColor {
+    color: #1ECE7A;
+}
+
+.text {
+    margin-top: 36px;
+    padding-right: 421px;
+}
+
+.textText {
+    font-style: normal;
+    font-size: 20px;
+    line-height: 160%;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 64px;
+    margin-bottom: 206px;
+}
+
+.button {
+    padding: 13px 23px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.buttonTwo {
+    padding: 13px 23px;
+    margin-left: 16px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.block2 {
+    width: calc(100% - 1100px);
+    background-color: #FFFFFF;
+}
+
+.pictures {
+
+}
+
+.picturesName {
+    
+}
