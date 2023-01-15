@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Logo from '../../../logo'
 import styles from './style.module.scss';
 
@@ -10,15 +11,15 @@ const Header = () => {
                     <h2 className={styles.text}>Siphome</h2>
                 </div>
                 <div className={styles.pages}>
-                    <a className={styles.button} href="http://#">Home</a>
-                    <a className={styles.button} href="http://#">Features</a>
-                    <a className={styles.button} href="http://#">Services</a>
-                    <a className={styles.button}href="http://#">Contact</a>
-                    <a className={styles.button}href="http://#">FAQ</a>
+                    <Link className={styles.button} to="/">Home</Link>
+                    <Link className={styles.button} to="/features">Features</Link>
+                    <a className={styles.button} href="#">Services</a>
+                    <a className={styles.button}href="#">Contact</a>
+                        <a className={styles.button}href="#">FAQ</a>
                 </div>
                 <nav className={styles.nav}>
-                    <a className={styles.navbutton} href="http://#">Sign In</a>
-                    <a className={styles.navbutton} href="http://#">Get Started</a>
+                    <a className={styles.navbutton} href="#">Sign In</a>
+                    <a className={styles.navbutton} href="#">Get Started</a>
                 </nav>
             </div>
         </div>
