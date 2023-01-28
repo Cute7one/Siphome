@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
-import Logo from '../../../logo'
 import styles from './style.module.scss';
+import logo from 'assets/images/logo.svg';
 
 const Header = () => {
     return (
         <div className={styles.header}>
             <div className={styles.container}>
                 <div className={styles.logo}>
-                    <img className={styles.pictures} src="/src/components/img/logo.svg" alt="logo" />
+                    <img className={styles.pictures} src={logo} alt="logo" />
                     <h2 className={styles.text}>Siphome</h2>
                 </div>
                 <div className={styles.pages}>

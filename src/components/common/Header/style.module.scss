@@ -5,34 +5,35 @@
 }
 
 .container {
-    background-color: rgb(112, 125, 124);
     display: flex;
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    height: 100px;
+    background-color: rgb(112, 125, 124);
+    padding: 35px 0;
 }
 
 .logo {
-    margin-left: 119px;
     display: flex;
+    align-items: center;
+    margin-left: 119px;
 }
 
 .pictures {
-    margin-left: 10px;
-    width: 42px;
-    height: 42px;
     padding-top: 5px;
 }
 
 .text {
+    padding-left: 12px;
     font-size: 22px;
     line-height: 27px;
-    padding-top: 10px;
-    margin-left: 12px;
+
 }
 
 .pages {
+    flex-grow: 2;
+    text-align: left;
+    padding-left: 115px
 }
 
 .button {
@@ -48,8 +49,11 @@
 }
 
 .nav {
-    margin-right: 119px;
     display: flex;
+    flex-basis: 242px;
+    text-align: left;
+    gap: 34px;
+    margin-right: 119px;
     font-size: 13px;
     line-height: 16px;  
 }
