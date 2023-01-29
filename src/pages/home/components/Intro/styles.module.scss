@@ -1,26 +1,25 @@
 .firstFloor {
     font-family: 'Inter', sans-serif;
-    border-top: 2px solid white;
 }
 
 .container {
-    background-color: rgb(112, 125, 124);
+    background-color: #FFFFFF;
     display: flex;
 }
 
 .block1 {
-    margin-left: 119px;
-    width: 1100px;
+    background-color: #1C57C9;
+    padding-left: 119px;
+    border-bottom-right-radius: 55% 75%;
 }
 
 .title {
     max-width: 600px;
     max-height: 204px;
-    padding-right: 381px;
-    padding-top: 90px;
 }
 
 .titleText {
+    padding-top: 77px;
     font-style: normal;
     font-weight: 700;
     font-size: 55px;
@@ -39,6 +38,7 @@
 }
 
 .textText {
+    padding-top: 77px;
     font-style: normal;
     font-size: 20px;
     line-height: 160%;
@@ -48,8 +48,8 @@
 
 .buttons {
     display: flex;
-    margin-top: 64px;
-    margin-bottom: 206px;
+    padding-top: 63px;
+    margin-bottom: 205px;
 }
 
 .button {
@@ -78,7 +78,6 @@
 }
 
 .block2 {
-    width: calc(100% - 1100px);
     background-color: #FFFFFF;
 }
 

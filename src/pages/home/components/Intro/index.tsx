@@ -1,8 +1,6 @@
 import styles from './styles.module.scss';
 
 
-
-
 const Intro = () => {
 
     return (
@@ -13,7 +11,7 @@ const Intro = () => {
                         <h1 className={styles.titleText}>Imagine your <tr></tr>home smart enough <tr></tr><span className={styles.titleTextColor}>to take care</span> of itself.</h1>
                     </div>
                     <div className={styles.text}>
-                        <p className={styles.textText}>Turn your home into a smarthome today with a simple & affordable upgrade. Discover the upgrade that automates home maintenance.</p>
+                        <p className={styles.textText}>Turn your home into a smarthome today with a simple & <tr></tr> affordable upgrade. Discover the upgrade that automates <tr></tr> home maintenance.</p>
                     </div>
                     <div className={styles.buttons}>
                         <button className={styles.button}>Get Started</button>

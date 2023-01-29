@@ -1,3 +1,13 @@
+h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #262B35;
+    padding-top: 15px;
+}
+
 .section {
     font-family: 'Inter';
 }
@@ -29,6 +39,7 @@
 }
 
 .titleName {
+    padding-right: 40px;
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
@@ -44,7 +55,11 @@
 }
 
 .blockLeft {
-    min-width: 680px;
+    min-width: 661px;
+}
+
+.pictures {
+    max-width: 661px;
 }
 
 .blockRight {
@@ -52,7 +67,8 @@
 }
 
 .blockTitle {
-    margin-top: 16px;
+    margin: 0 auto;
+    padding-top: 16px;
     font-style: normal;
     font-weight: 700;
     font-size: 42px;
@@ -70,11 +86,24 @@
     color: #606C84;
 }
 
-.grid1 {
+.gridn1 {
     display: flex;
+    padding-top: 43px;
+    gap: 88px;
 }
 
-.grid2 {
+.gridn2 {
     display: flex;
+    padding-top: 56px;
+    gap: 92px;
+}
+
+.gridText {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #606C84;
 }
 
