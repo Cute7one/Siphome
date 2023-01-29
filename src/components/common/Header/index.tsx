@@ -15,7 +15,7 @@ const Header = () => {
                     <Link className={styles.button} to="/features">Features</Link>
                     <a className={styles.button} href="#">Services</a>
                     <a className={styles.button}href="#">Contact</a>
-                        <a className={styles.button}href="#">FAQ</a>
+                    <Link className={styles.button} to="/faq">FAQ</Link>
                 </div>
                 <nav className={styles.nav}>
                     <a className={styles.navbutton} href="#">Sign In</a>
